@@ -1,48 +1,36 @@
-body {
-    margin: 60px auto;
-    width: 70%;
+@font-face { font-family: Raleway; src: url('resources/fonts/Raleway-Regular.ttf') format("truetype"); } 
+@font-face { font-family: Raleway-Bold; src: url('resources/fonts/Raleway-Bold.ttf') format("truetype"); } 
+
+.centered {
+  margin: 0 auto;
+  max-width: 700px;
+}  
+
+.interweb {
+    margin: 7px;
+    position: relative;
+    top: 0;
+    transition: top ease 0.25s;
 }
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
+
+.interweb:hover {
+    top: -5px;
 }
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
+
+.highlight {
+    background: #ffd394;
+    padding: 0px 1px 0px 1px;
+    margin: -1px -1px;
+    display:inline-block;
 }
-a {
-    text-decoration: none;
-    color: #999;
-}
-a:hover {
-    text-decoration: underline;
-}
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
+
 p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+  font-size:16px;
+  line-height: 1.5;
+  color: #191919;
+  padding-bottom: 15px;
 }
 
-ul.interests {
-    font-size: 1.5em;
-    color: #333;
-}
-
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
-}
-
-ul.posts li {
-    list-style: none;
+h1, h2 {
+    margin: 7px;
 }
