@@ -33,8 +33,15 @@
     top: -5px;
 }
 
-.highlight {
+.orange-highlight {
     background: #ffd394;
+    padding: 0px 1px 0px 1px;
+    margin: -1px -1px;
+    display:inline-block;
+}
+
+.blue-highlight {
+    background: #ace7be;
     padding: 0px 1px 0px 1px;
     margin: -1px -1px;
     display:inline-block;
