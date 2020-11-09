@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Nadin Tamer's portfolio website">
+	<title>Nadin Tamer</title>
+	<link rel="stylesheet" type="text/css" href="../css/main.css">
+</head>
+
+<body>
+		<img src="../resources/images/nadin.png" alt="nadin" width="100" height="100" style ="display:block; margin-left: auto; margin-right: auto; margin-top:20px">
+		<h1 style="color:#191919;margin-left: 10px;font-size: 50px;font-family:Helvetica;text-align:center;">Nadin Tamer</h1>
+		<p class="centered" style="text-align:center"><a href="../index.html">home</a> | <a href="../projects.html">projects</a> | <a href="../resources/Nadin_Tamer_Resume.pdf">resume</a></p>
+		<p class="centered" style="color: #191919;font-size: 20px;text-align:center">🌲 🌈 💻 ✨ 📚</p>
+
+		<br>
+
+		<h3 class="centered" style="color: #191919;font-size: 25px">What Makes a Great Poet?</h3>
+		<div class="centered">
+			<p style="margin-top:5px"><i>Tools: Swift, CreateML, NaturalLanguage, Python, pandas, BeautifulSoup | Source Code: <a href="https://github.com/nadintamer/What-Makes-A-Great-Poet">GitHub</a></i></p>
+			<p>What Makes a Great Poet? is a Swift playground that I developed for my Apple WWDC19 Scholarship submission. Inspired by the poets I was learning about in my AP English Literature class (specifically Ezra Pound, Emily Dickinson, and Robert Frost), I decided to build a playground that analyzed different poets' styles and generated poems by imitating them. All of this is done in the company of a kitten and aspiring poet, Mr. Whiskers 🐱</p>
+			<p>Before starting on the Swift playground, I built a web scraper in Python to collect some poems by each of the poets off of <a href="https://www.poemhunter.com">poemhunter.com</a>. The actual Swift playground has a lot of different moving parts: there is the visual scene (once again in my 8-bit style), audio commentary, and everything going on behind the scenes. I struggled a lot getting the voice reading the poems to match up timing-wise with the lines on the screen, which required some clever manipulation of starting and pausing conditions. For the actual poetry analysis, I used CreateML to train a model that would predict which poet wrote a given poem, and NaturalLanguage to train a simple Markov Chain that would generate poems in a given poet's style.</p>
+			<p>Although I didn't end up getting selected for a WWDC19 scholarship, I greatly enjoyed the process of developing Mr. Whiskers & his analysis of poetry. Working with unfamiliar tools gave me an amazing opportunity to hone my development skills!</p>
+			<p>Below is a poem by Mr. Whiskers, in the style of Robert Frost:</p>
+			<img src="../resources/images/frost-poem.png" alt="A poem by Mr. Whiskers, in the style of Robert Frost" width="700" height="560">
+		</div>
+
+		<div style ="padding-top: 30px; text-align:center; margin-bottom:20px">
+			<a class="interweb" href="https://github.com/nadintamer"><img src="../resources/images/github.png" alt="github" width="25" height="25"></a>
+			<a class="interweb" href="https://linkedin.com/in/nadintamer"><img src="../resources/images/linkedin.png" alt="linkedin" width="25" height="25"></a>
+			<a class="interweb" href="https://medium.com/@nadin.tamer"><img src="../resources/images/medium.png" alt="medium" width="25" height="25"></a>
+			<a class="interweb" href="mailto:nadin.tamer@gmail.com"><img src="../resources/images/mail.png" alt="mail" width="25" height="25"></a>
+		</div>
+
+</body>
+</html>
