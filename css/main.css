@@ -20,7 +20,7 @@
 .centered {
   margin: 0 auto;
   max-width: 700px;
-}  
+}
 
 .interweb {
     margin: 7px;
@@ -35,14 +35,16 @@
 
 .left {
   position: relative;
-  width:320px;
+  width:100%;
+  max-width:320px;
   height:auto;
   float:left;
 }
 
 .right {
   position: relative;
-  width:370px;
+  width:100%;
+  max-width:370px;
   height:auto;
   float:right;
 }
