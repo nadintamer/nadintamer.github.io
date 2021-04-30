@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Nunito:400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Nunito:400,700,900);
 
 .centered {
   margin: 0 auto;
@@ -70,7 +70,7 @@
 
 .text {
   background-color: white;
-  font-family: Nunito;
+  font-family: Nunito, Helvetica;
   font-size: 20px;
   color: black;
   padding: 16px 32px;
@@ -78,18 +78,18 @@
 
 p {
   font-size:16px;
-  font-family: Nunito;
+  font-family: Nunito, Helvetica;
   line-height: 1.5;
   color: #191919;
   padding-bottom: 15px;
 }
 
 h1, h2 {
-    margin: 7px;
-    font-family: Nunito;
-    font-weight:700;
+  margin: 7px;
+  font-family: Nunito, Helvetica;
+  font-weight:700;
 }
 
 h3 {
-    font-family: Nunito;
+  font-family: Nunito, Helvetica;
 }
