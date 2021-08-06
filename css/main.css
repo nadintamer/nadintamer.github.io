@@ -84,6 +84,13 @@ p {
   padding-bottom: 15px;
 }
 
+li {
+  font-size:16px;
+  font-family: Nunito, Helvetica;
+  line-height: 1.5;
+  color: #191919;
+}
+
 h1, h2 {
   margin: 7px;
   font-family: Nunito, Helvetica;
